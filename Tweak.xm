@@ -12,4 +12,8 @@
 	return self;
 }
 
+- (void)setScrollsToTop:(BOOL)scrolls {
+	%orig(NO);
+}
+
 %end
